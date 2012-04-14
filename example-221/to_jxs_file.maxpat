@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 7.0, 44.0, 1200.0, 696.0 ],
+		"rect" : [ -16.0, 198.0, 1200.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -253,16 +253,16 @@
 ,
 					"patching_rect" : [ 189.0, 108.0, 42.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"tags" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p esc"
@@ -4966,16 +4966,16 @@
 ,
 					"patching_rect" : [ 879.333374, 361.0, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"tags" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p objects"
@@ -5381,8 +5381,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.5, 302.0, 79.0, 18.0 ],
-					"text" : "C_kashiyuka"
+					"patching_rect" : [ 144.5, 302.0, 45.0, 18.0 ],
+					"text" : "A_test"
 				}
 
 			}
@@ -5395,8 +5395,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.5, 302.0, 60.0, 18.0 ],
-					"text" : "B_nocchi"
+					"patching_rect" : [ 78.5, 302.0, 45.0, 18.0 ],
+					"text" : "B_test"
 				}
 
 			}
@@ -5451,8 +5451,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.5, 302.0, 58.0, 18.0 ],
-					"text" : "A_achan"
+					"patching_rect" : [ 15.5, 302.0, 45.0, 18.0 ],
+					"text" : "A_test"
 				}
 
 			}

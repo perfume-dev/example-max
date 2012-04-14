@@ -225,16 +225,16 @@
 ,
 					"patching_rect" : [ 88.5, 216.0, 42.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p esc"
@@ -396,16 +396,16 @@
 ,
 					"patching_rect" : [ 15.0, 254.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p rotater"
@@ -476,12 +476,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-8",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.0, 38.0, 96.0, 18.0 ],
-									"text" : "open perhp.wav"
+									"patching_rect" : [ 31.0, 38.0, 177.0, 32.0 ],
+									"text" : "open Perfume_globalsite_sound.wav"
 								}
 
 							}
@@ -573,16 +574,16 @@
 ,
 					"patching_rect" : [ 88.5, 107.0, 53.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p sound"
@@ -710,8 +711,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 556.0, 106.0, 79.0, 18.0 ],
-					"text" : "C_kashiyuka"
+					"patching_rect" : [ 556.0, 106.0, 45.0, 18.0 ],
+					"text" : "C_test"
 				}
 
 			}
@@ -737,8 +738,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.0, 106.0, 60.0, 18.0 ],
-					"text" : "B_nocchi"
+					"patching_rect" : [ 475.0, 106.0, 45.0, 18.0 ],
+					"text" : "B_test"
 				}
 
 			}
@@ -846,8 +847,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 397.0, 106.0, 58.0, 18.0 ],
-					"text" : "A_achan"
+					"patching_rect" : [ 397.0, 106.0, 45.0, 18.0 ],
+					"text" : "A_test"
 				}
 
 			}
@@ -1241,7 +1242,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "node_basic.maxpat",
-				"bootpath" : "/Users/masato/Dropbox/perfume_bvh/prfm_bvh",
+				"bootpath" : "/Users/masato/Desktop/prfm_bvh_public",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1

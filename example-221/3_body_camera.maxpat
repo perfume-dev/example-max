@@ -225,16 +225,16 @@
 ,
 					"patching_rect" : [ 92.25, 286.0, 42.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p esc"
@@ -349,18 +349,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 207.25, 39.5, 100.0, 40.0 ],
+					"patching_rect" : [ 207.25, 39.5, 143.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-26", "umenu", "int", 7, 5, "obj-14", "flonum", "float", 0.3, 5, "obj-8", "number", "int", 25, 5, "obj-2", "number", "int", 1 ]
+							"data" : [ 5, "obj-26", "umenu", "int", 7, 5, "obj-14", "flonum", "float", 0.3, 5, "obj-8", "number", "int", 50, 5, "obj-2", "number", "int", 0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-26", "umenu", "int", 2, 5, "obj-14", "flonum", "float", 0.3, 5, "obj-8", "number", "int", 3528, 5, "obj-2", "number", "int", 1 ]
+							"data" : [ 5, "obj-26", "umenu", "int", 2, 5, "obj-14", "flonum", "float", 0.3, 5, "obj-8", "number", "int", 3528, 5, "obj-2", "number", "int", 0 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-26", "umenu", "int", 2, 5, "obj-14", "flonum", "float", 0.3, 5, "obj-8", "number", "int", 3528, 5, "obj-2", "number", "int", 0 ]
+							"data" : [ 5, "obj-26", "umenu", "int", 2, 5, "obj-14", "flonum", "float", 0.3, 5, "obj-8", "number", "int", 3528, 5, "obj-2", "number", "int", 1 ]
+						}
+, 						{
+							"number" : 4,
+							"data" : [ 5, "obj-26", "umenu", "int", 7, 5, "obj-14", "flonum", "float", 0.3, 5, "obj-8", "number", "int", 25, 5, "obj-2", "number", "int", 6 ]
 						}
  ]
 				}
@@ -628,8 +632,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 111.0, 74.0, 115.0, 18.0 ],
-									"text" : "open perhp.wav, $1"
+									"patching_rect" : [ 111.0, 74.0, 123.0, 18.0 ],
+									"text" : "open dummy.wav, $1"
 								}
 
 							}
@@ -692,6 +696,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 3 ]
 								}
 
 							}
@@ -764,16 +777,16 @@
 ,
 					"patching_rect" : [ 138.25, 87.5, 53.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p sound"
@@ -1712,16 +1725,16 @@
 ,
 					"patching_rect" : [ 548.583313, 217.0, 303.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p camera_ctrl"
@@ -1834,8 +1847,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 738.25, 163.5, 115.0, 18.0 ],
-					"text" : "model C_kashiyuka"
+					"patching_rect" : [ 738.25, 163.5, 81.0, 18.0 ],
+					"text" : "model C_test"
 				}
 
 			}
@@ -1862,8 +1875,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 643.25, 163.5, 96.0, 18.0 ],
-					"text" : "model B_nocchi"
+					"patching_rect" : [ 643.25, 163.5, 81.0, 18.0 ],
+					"text" : "model B_test"
 				}
 
 			}
@@ -1932,8 +1945,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 549.25, 163.5, 93.0, 18.0 ],
-					"text" : "model A_achan"
+					"patching_rect" : [ 549.25, 163.5, 80.0, 18.0 ],
+					"text" : "model A_test"
 				}
 
 			}
@@ -2611,7 +2624,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "node_body.maxpat",
-				"bootpath" : "/Users/masato/Dropbox/perfume_bvh/prfm_bvh",
+				"bootpath" : "/Users/masato/Desktop/prfm_bvh_public",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1

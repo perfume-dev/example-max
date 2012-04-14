@@ -225,16 +225,16 @@
 ,
 					"patching_rect" : [ 76.625, 312.5, 42.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p esc"
@@ -426,7 +426,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 202.0, 43.0, 24.0, 20.0 ],
+									"patching_rect" : [ 237.0, 93.5, 24.0, 20.0 ],
 									"text" : "t b"
 								}
 
@@ -439,7 +439,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 202.0, 71.0, 35.0, 20.0 ],
+									"patching_rect" : [ 237.0, 121.5, 35.0, 20.0 ],
 									"text" : "s init"
 								}
 
@@ -518,8 +518,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 72.0, 63.0, 115.0, 18.0 ],
-									"text" : "open perhp.wav, $1"
+									"patching_rect" : [ 72.0, 63.0, 123.0, 18.0 ],
+									"text" : "open dummy.wav, $1"
 								}
 
 							}
@@ -654,16 +654,16 @@
 ,
 					"patching_rect" : [ 294.625, 92.0, 53.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p sound"
@@ -910,8 +910,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 895.0, 168.0, 115.0, 18.0 ],
-					"text" : "model C_kashiyuka"
+					"patching_rect" : [ 895.0, 168.0, 81.0, 18.0 ],
+					"text" : "model C_test"
 				}
 
 			}
@@ -937,8 +937,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 799.0, 168.0, 96.0, 18.0 ],
-					"text" : "model B_nocchi"
+					"patching_rect" : [ 799.0, 168.0, 81.0, 18.0 ],
+					"text" : "model B_test"
 				}
 
 			}
@@ -1006,8 +1006,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.0, 168.0, 93.0, 18.0 ],
-					"text" : "model A_achan"
+					"patching_rect" : [ 706.0, 168.0, 80.0, 18.0 ],
+					"text" : "model A_test"
 				}
 
 			}
@@ -1577,7 +1577,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "node_physics.maxpat",
-				"bootpath" : "/Users/masato/Dropbox/perfume_bvh/prfm_bvh",
+				"bootpath" : "/Users/masato/Desktop/prfm_bvh_public",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
